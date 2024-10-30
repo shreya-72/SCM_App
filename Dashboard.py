@@ -104,8 +104,8 @@ if query_string:
 else:
     df_selection = df  # No filter selected, so display the full dataframe
 
-if st.sidebar.button("Add New Vendor"):
-    st.query_params(page="entry_form")
+# if st.sidebar.button("Add New Vendor"):
+#     st.query_params(page="entry_form")
 
 
 # ---- MAINPAGE ----
